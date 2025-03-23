@@ -31,7 +31,8 @@ export default function registerScreen(){
         <View style={{
             flex: 1,
             padding: 30,
-            backgroundColor: "black"
+            backgroundColor: "black",
+            gap: 4
         }}>
             <Text style={{
                 color: "#f2f2f2",

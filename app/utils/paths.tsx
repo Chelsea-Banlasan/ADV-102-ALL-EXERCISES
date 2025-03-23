@@ -9,7 +9,7 @@ export const directs = [
     },
     {id: 4, title: "Exercise",
      desc: "Screens for useState and useEffect",
-     fields: ["Email", "Password"],
+    //  fields: ["Email", "Password"],
      direct: "/screens/hooks" as const
     },
     {id: 5, title: "Exercise",
@@ -21,4 +21,8 @@ export const directs = [
      desc: "Simple CRUD",
      direct: "/screens/crudScreen" as const
     },
+    {id: 7, title: "Exercise",
+    desc: "Create a simple Quiz using Open Trivia Database API",
+    direct: "/screens/quizScreen" as const
+   },
 ]
